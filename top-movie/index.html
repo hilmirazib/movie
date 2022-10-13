@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie App</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a class="active" href="/now-playying">Now Playying</a>
+            <div class="subnav">
+                <button class="subnavbtn">Popular <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="/popular-movie">Movie</a>
+                    <a href="/popular-tv">TV</a>
+                    <a href="/popular-people">People</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">Top Rated<i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="/top-movie">Movie</a>
+                    <a href="/top-tv">TV</a>
+                </div>
+            </div>
+            <a class="active" href="/">Movie Dicover</a>
+            <a class="active" href="/tv">TV Dicover</a>
+            <a href="/tranding">Tranding</a>
+            <a href="/upcoming">Upcoming</a>
+        </div>
+        <form id="form">
+            <input type="text" id="search" class="search" placeholder="Search">
+        </form>
+    </header>
+
+    <main id="main"></main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
